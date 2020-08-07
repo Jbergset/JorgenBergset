@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="./test.css">
+</head>
+<body>
+    <!-- 
+    <div id="header" class="site-header">
+        <div class="wrap">
+            <div id="branding" role="banner">
+                <img id="profilbilde" src="img/profilbilde.jpg" alt="profile picture">
+                <p class="site-title"><a href="http://example.com">Home page</a></p>
+                <p class="site-description">Just another Portifolio site...</p>
+                <a href="">About me</a>
+                <br>
+                <a href="">Resume</a>
+                <br>
+                <a href="">Portifolio</a>
+                <br>
+                <a href="">Contact Me</a>
+            </div> 
+        </div> 
+    </div> 
+    -->
+
+    <header id="showcase">
+        <!-- <h1>Welcome to the front page</h1>
+        <h1 class="typing"></h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur quam a iste voluptatibus possimus expedita?</p>
+        <a href="#portifolio" class="button">Read more</a> -->
+        <div class="headerContainer">
+            <p>Jeg <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+            <a href="#pil" class="button">Finn ut mer!</a>
+        </div>
+    </header>
+    <div id="main">
+        <div class="wrap">
+                <div id="kontent" role="main">
+                    <div class="omMeg">
+                    <div class="tingOmMeg"></div>
+                    <h1 id="pil">4 raske ting om meg:</h1>
+                        <div class="container">
+                            <div class="icon">
+                                <div class="iconBx active" data-id="content1">
+                                    <img src="./img/webIcon.svg">
+                                </div>
+                                <div class="iconBx" data-id="content2">
+                                    <img src="./img/book.svg">
+                                </div>
+                                <div class="iconBx" data-id="content3">
+                                    <img src="./img/soccer.svg">
+                                </div>
+                                <div class="iconBx" data-id="content4">
+                                    <img src="./img/newspaper.svg">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="contentBx active" id="content1">
+                                    <div>
+                                        <div class="text">
+                                            <h2>Teknologi</h2>
+                                            <p>Igjennom utdanningen så synes jeg det har vært veldig spennende å jobbe med ulike teknologier. Alt fra å kunne programmere, analysere data, lære om prosjekt ledelse synes jeg har vært de mest givende fagene.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contentBx" id="content2">
+                                    <div>
+                                        <div class="text">
+                                            <h2>Master grad</h2>
+                                            <p>Igjennom skolegangen min så har jeg ett år med Front-end utvikling, bachelor i E-Business og en master grad i Digital Systems på høyskolen Kristiania. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contentBx" id="content3">
+                                    <div>
+                                        <div class="text">
+                                            <h2>Fritid</h2>
+                                            <p>På fritiden så liker jeg å spille gitar, lese bøker, se på engelsk fotball og være sosial. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contentBx" id="content4">
+                                    <div>
+                                        <div class="text">
+                                            <h2>Nyheter</h2>
+                                            <p>Jeg følger mye med på ulike trender innenfor IT for å alltid være oppdatert på det som kommer. Jeg synes det er spennende og nyttig. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <!--
+                        <div id="aboutMe" class="sidecontent"> 
+                            <h1> About Me</h1>
+                            <p>Jeg er en nyutdannet masterstudent som synes teknologi er spennende. Den teknologiske utviklingen har hatt og vil ha avgjørende betydning for samfunnsutviklingen blant annet i form av nye varer og tjenester, effektivisering av arbeidsprosesser samt bidrag til det grønne skifte. Jeg liker utfordringer og sette meg inn i ny teknologi. Gjennom utdanningen har jeg i samspill med andre gjennomført mange spennende IT prosjekter der vi har lært å bruke Scrum metodikk for å lage et produkt. Gjennom prosjektene har jeg fått ulike erfaringer som blant annet front-end programmering og data analyse.
+                        </div>
+                    -->
+                    <h1 id="portifolioheader">Porifolio</h1>
+                        <div id="portifolio" class="sidecontent"> <!-- Portifolio-->
+                            <div id="project1" class="project grow" onclick="location.href='./pages/differ.html';" style="cursor: pointer">
+                                <div class="imgContainer">
+                                    <img src="./img/differlogo.jpg" alt="project Image">
+                                    <p><b>Bachelor oppgaven: Differ Bot</b></p>
+                                    <p>Differ Bot is a chatbot for students to get fast access to information. </p>
+                                </div>
+                            </div>
+
+                            <div id="project2" class="project grow" onclick="location.href='./pages/corona.html';" style="cursor: pointer">
+                                <div class="imgContainer">
+                                    <img src="./img/covidApp.png" alt="project Image">
+                                    <p><b>Corna Virus Website</b></p>
+                                    <p> Denne siden er for å se statikk på Corona viruset rundt om i verden. Den viser også de nyeste nyhet artikkelene fra forskjellige nyhets kilder. </p>
+                                </div>
+                            </div>
+
+                            <div id="project3" class="project grow" onclick="location.href='./pages/reddit.html';" style="cursor: pointer">
+                                <div class="imgContainer">
+                                    <img src="./img/redditIcon.png" alt="project Image">
+                                    <p><b>Søk etter bilder via Reddit.json</b></p>
+                                    <p>Søker etter bilder på reddit.json.</p>
+                                </div>
+                            </div>
+
+                            <div id="project4" class="project grow" onclick="location.href='./pages/sharingEconomy.html'" style="cursor: pointer">
+                                <div class="imgContainer">
+                                    <img src="./img/commerce-and-shopping.svg" alt="project Image">
+                                    <p><b>Master Oppgaven: Delingsøkonomi</b></p>
+                                    <p>Master Oppgaven Delingsøkonomi</p>
+                                </div> 
+                            </div>
+                           
+                        </div>
+                        <!---->
+                        <div id="resume" class="sidecontent"> 
+                            <h1>Min CV</h1>
+                            <embed src="./JorgenCV.pdf" type="application/pdf" width="100%" height="600px";>
+                        </div>
+                    
+                        <div id="contactMe" class="sidecontent"> <!-- Contact Me!-->
+                            <h1>Lyst til å ta en prat?</h1>
+                            <p id="telefon">913 42 244 </p>
+                            <p id="email">Jbergset93@hotmail.com</p>
+                            <p id="linkedin">https://www.linkedin.com/in/jørgen-bergset-986bb6a6/</p>
+                        </div>
+                    </div>
+                    
+                </div><!--#kontent-->
+            
+            <!--
+            <div id="secondary">
+                <div class="widget">
+                    <p>Sidebar content...</p>
+                </div>
+            </div> -->
+        </div> <!--.wrap-->
+    </div><!--#main-->
+
+    
+
+<script src="./test.js">
+
+</script>
+</body>
+</html>
