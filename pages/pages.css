@@ -25,3 +25,50 @@ body {
         margin-top:80px;
     }
 }
+
+.differBody {
+    background-image: url(../img/differbackground.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.coronaBody {
+    background-image: url(../img/background/coronabackground2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.sharingeconomyBody {
+    background-image: url(../img/background/sharingeconomy.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.CoronaContainer {
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 30px;
+    
+}
+
+.differContainer {
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 30px;
+    color: black;
+}
+
+.redditContainer {
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 30px;
+    color: white;
+}
+
+.sharingContainer {
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 30px;
+    color: white;
+}
+.coronaRow {
+    background-color: rgba(255, 255, 255, 0.9);
+}
