@@ -1,0 +1,313 @@
+:root {
+    --tid: 8s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+
+}
+
+main {
+    position: relative;
+}
+
+.banner {
+    background-image: url(./img/background_2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    position: relative;
+    /* Skjuler skoen */
+    overflow: hidden;
+}
+
+#arrowDown {
+    position: absolute;
+    fill: red;
+    width:  100px;
+    margin: auto;
+    left:0;
+    right:0;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    bottom: 20px;
+    animation: pilAnimasjon 1.5s infinite forwards;
+}
+
+@keyframes pilAnimasjon {
+    from {
+        bottom: 40px;
+    }
+
+    to {
+        bottom: 20px;
+    }
+}
+
+aside {
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    display: block;
+    margin-right: 90px;
+    margin-top: 120px;
+    
+    border-radius: 20px;
+}
+
+aside p {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tittel {
+    color: lightgray;
+    font-family: arial;
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 100px;
+    transform: rotate(-6deg);
+    user-select: none;
+    animation: vipper 3s infinite forwards;
+}
+
+#tittel h1{
+    border: 5px solid black;
+}
+
+@keyframes vipper {
+    0%{
+        transform: rotate(-6deg);
+    }
+    50%{
+        transform: rotate(3deg);
+    }
+    100%{
+        transform: rotate(-6deg);
+    }
+}
+
+/* Button på sidene */
+button {
+    border-radius: 10px;
+    margin: 2px;
+    width: 50px;
+    height: 150px;
+    border: none;
+    cursor: pointer;
+}
+
+#btnBlack {
+    background-color: Black;
+}
+#btnWhite {
+    background-color: white;
+}
+#btnGray {
+    background-color: lightgray;
+}
+#btnPink {
+    background-color: pink;
+}
+#btnColor {
+    background-color: blue;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes bevegelse {
+    0%{
+        left: -770px;
+        transform: rotate(-20deg);
+    }
+    40%{
+        left: 450px;
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    80%{
+        left: 450px;
+        transform: rotate(0deg);
+        
+    }
+    100%{
+        left: 450px;
+        
+    }
+}
+
+#sko {
+    position: absolute;
+    background-image: url("./img/black.png");
+    background-size: 400px 200px;
+    width: 400px;
+    height: 200px;
+    bottom: 180px;
+    left: 300px;
+    animation: bevegelse 3s forwards;
+}
+
+ #sko img {
+    size: 50px;
+ }
+
+ /***************** UNDER SIDEN *************************/
+
+.wrapper {
+    display: grid; 
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(9, 82px);
+    gap: 20px;
+    
+}
+/****** Bildene til høyre *****/
+.main-left {
+    grid-column: 2 / 8;
+    grid-row: 2 / 10;
+    display: grid; 
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.main-img img{
+    width: 360px;
+    height: 380px;
+    
+}
+
+/***** Høyre topp *****/
+.right-top {
+    background-color: white;
+    grid-column: 9 / 12;
+    grid-row: 2 / 5;
+    display: grid; 
+    gap: 2px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 70px);
+}
+
+.right-top-text {
+    grid-column: 1 / 4;
+}
+
+.logo {
+    border: 1px solid lightgray;
+    width: 117px;
+    height: 68px;
+}
+
+.logo:hover {
+    border: 1px solid black;
+}
+.logo img {
+    width: 117px;
+    height: 68px;
+    cursor: pointer;
+}
+
+/******* Høyre nede *****/
+.rightBottom {
+    grid-column: 9 / 12;
+    grid-row: 5 / 9;
+    gap: 4px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.right-bottom-text {
+    grid-column: 1 / 4;
+    text-align: bottom;
+    font-size: 20px;
+    font-family: arial;
+}
+
+.str {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.str:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.active, .str:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.btn {
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: 1 / 4;
+}
+
+/**************** POPUP Handlekurv***************/
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+
+    background-color: rgba(0,0,0,0.4);
+}
+
+#modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+}
+
+#close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;   
+}
+
+#close:hover,#closefocus {
+    color: #000;
+    text-decoration: none;
+    cursor:pointer;
+}
+
