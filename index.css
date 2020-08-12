@@ -43,6 +43,14 @@ body {
     margin-top: 30px;
 }
 
+.mobilOmMeg {
+    visibility: hidden;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 .typing {
     position: relative;
     margin-left: 10px;
@@ -61,7 +69,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 30vh;
-     
+    font-size: 14px;
 }
 
 .headerContainer {
@@ -100,7 +108,7 @@ body {
 
 .icon {
     position: relative;
-    width: 55%;
+    width: 49%;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -113,7 +121,8 @@ body {
     width: calc(50% - 40px);
     margin: 0 30px 30px 0;
     padding: 0 25px;
-    height: 140px;
+    height: 14vh;
+    width: 12vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -380,7 +389,17 @@ body {
         position: absolute;
     }
 
+    .omMeg {
+        visibility: hidden;
+        margin-bottom: 40vh;
+        margin-left: 4vw;
+    }
 
+    .mobilOmMeg {
+        visibility: visible;
+        margin-bottom: 40px;
+    }
+    
     .container{
         width: 100%;
         margin: 0;
@@ -398,6 +417,12 @@ body {
     }
 }
 
+@media screen and (max-width : 800px) { 
+    .omMeg {
+        visibility: hidden;
+        margin-bottom: 60vh;
+    }
+}
 @media screen and (max-width : 600px) {
     .icon {
         width: 250%;
@@ -419,7 +444,24 @@ body {
         padding-bottom: 30px;
     }
 
+    .omMeg {
+        visibility: hidden;
+        margin-bottom: 70vh;
+    }
+
     #contactMe{
         padding: 0;
+    }
+}
+
+@media screen and (max-width : 510px) { 
+    .omMeg {
+        visibility: hidden;
+        margin-bottom: 75vh;
+    }
+}
+@media screen and (max-width : 1000px) {
+    .container {
+        font-size: 12px;
     }
 }
