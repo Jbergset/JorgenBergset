@@ -49,6 +49,7 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
+    border: 2px solid black;
 }
 
 .typing {
@@ -454,7 +455,7 @@ body {
     }
 }
 
-@media screen and (max-width : 500px) {
+@media screen and (max-width : 490px) {
     .omMeg {
         visibility: hidden;
         margin-bottom: 95vh;
