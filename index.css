@@ -392,7 +392,7 @@ body {
 
     .omMeg {
         visibility: hidden;
-        margin-bottom: 40vh;
+        margin-bottom: 90vh;
         margin-left: 4vw;
     }
 
@@ -424,7 +424,7 @@ body {
 @media screen and (max-width : 800px) { 
     .omMeg {
         visibility: hidden;
-        margin-bottom: 60vh;
+        margin-bottom: 150vh;
     }
 }
 @media screen and (max-width : 600px) {
@@ -450,8 +450,7 @@ body {
 
     .omMeg {
         visibility: hidden;
-        margin-bottom: 70vh;
-        
+        margin-bottom: 120vh;
     }
 
     #contactMe{
@@ -466,13 +465,13 @@ body {
 @media screen and (max-width : 490px) {
     .omMeg {
         visibility: hidden;
-        margin-bottom: 110vh;
+        margin-bottom: 210vh;
     } 
 }
 @media screen and (max-width : 510px) { 
     .omMeg {
         visibility: hidden;
-        margin-bottom: 75vh;
+        margin-bottom: 325vh;
     }
 }
 
