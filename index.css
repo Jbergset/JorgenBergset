@@ -399,6 +399,7 @@ body {
     .mobilOmMeg {
         visibility: visible;
         margin-bottom: 40px;
+        
     }
     
     .container{
@@ -452,6 +453,10 @@ body {
 
     #contactMe{
         padding: 0;
+    }
+
+    #portifolio{
+        margin-top: 20vh;
     }
 }
 
