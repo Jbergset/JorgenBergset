@@ -399,7 +399,9 @@ body {
     .mobilOmMeg {
         visibility: visible;
         margin-bottom: 40px;
-        
+        justify-content: center;
+        align-items: center;
+        margin-right: 20%;
     }
     
     .container{
@@ -449,6 +451,7 @@ body {
     .omMeg {
         visibility: hidden;
         margin-bottom: 70vh;
+        
     }
 
     #contactMe{
