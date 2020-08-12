@@ -458,7 +458,7 @@ body {
 @media screen and (max-width : 490px) {
     .omMeg {
         visibility: hidden;
-        margin-bottom: 95vh;
+        margin-bottom: 110vh;
     } 
 }
 @media screen and (max-width : 510px) { 
