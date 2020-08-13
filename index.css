@@ -394,6 +394,7 @@ body {
         visibility: hidden;
         margin-bottom: 90vh;
         margin-left: 10%;
+        border-radius: 40px;
     }
 
     .mobilOmMeg {
@@ -403,6 +404,7 @@ body {
         align-items: center;
         margin-right: 40%;
         width: 60vw;
+        
     }
     
     .container{
