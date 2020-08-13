@@ -20,7 +20,7 @@ h2 {
 }
 
 .nikeTittel {
-    margin-top: 300px;
+  
 }
 
 #tilbakeKnapp {
@@ -86,7 +86,6 @@ h2 {
     background-color: rgba(0,0,0,0.9);
     border-radius: 30px;
     margin-top: 100px;
-    
 }
 
 .differContainer {
@@ -100,7 +99,7 @@ h2 {
     background-color: rgba(0,0,0,0.9);
     border-radius: 30px;
     color: white;
-    margin-top: 200px;
+    
 }
 
 .sharingContainer {
@@ -115,4 +114,14 @@ h2 {
 
 #tilbakebtn {
     z-index: 1;
+}
+
+@media screen and (max-width : 500px) {
+    .nikeTittel {
+        margin-top: 100px;
+    }
+
+    .redditContainer {
+        margin-top: 300px;
+    }
 }
