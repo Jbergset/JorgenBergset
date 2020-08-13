@@ -56,6 +56,11 @@ h2 {
     }
 }
 
+@media screen and (max-width : 500px) {
+    #tilbakebtn {
+        visibility: hidden;
+    }
+}
 
 .differBody {
     background-image: url(../img/differbackground.png);
