@@ -403,8 +403,7 @@ body {
         justify-content: center;
         align-items: center;
         margin-right: 40%;
-        width: 60vw;
-        
+        width: 60vw;        
     }
     
     .container{
@@ -470,6 +469,7 @@ body {
         visibility: hidden;
         margin-bottom: 190vh;
     } 
+
 }
 @media screen and (max-width : 510px) { 
     .omMeg {
