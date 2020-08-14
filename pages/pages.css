@@ -56,13 +56,13 @@ h2 {
     }
 }
 
-@media screen and (max-height : 500px) {
+@media screen and (max-height : 600px) {
     #tilbakebtn {
         visibility: hidden;
     }
 }
 
-@media screen and (max-width : 1010px) {
+@media screen and (max-width : 1026px) {
     #tilbakebtn {
         visibility: hidden;
     }
